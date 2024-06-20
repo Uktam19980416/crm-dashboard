@@ -1,0 +1,67 @@
+.card {
+  border: none !important;
+  background: #f0f2fa;
+}
+.col__h1 {
+  font-family: "Inter";
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 48px;
+  letter-spacing: 0.02em;
+  color: #0061f7;
+}
+.col__label {
+  font-family: "Inter";
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 24px;
+  letter-spacing: 0.02em;
+  color: #000000;
+  margin-bottom: 10px;
+}
+.col__h3 {
+  font-family: "Inter";
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 48px;
+  color: #0061f7;
+}
+.col__h3 span {
+  font-family: "Inter";
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 28px;
+  color: #0061f7;
+  margin-right: 10px;
+}
+.col__input {
+  width: 340px;
+  height: 48px;
+  background: #ffffff;
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.2);
+  border-radius: 16px;
+  border: none;
+  outline: none;
+  padding-left: 50px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  color: rgba(0, 0, 0, 0.5);
+}
+.col__img-input {
+  position: relative;
+}
+.col__search {
+  position: absolute;
+  top: 14px;
+  left: 15px;
+  cursor: pointer;
+}
+
+.col__jami {
+  font-family: "Inter";
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 150%;
+  text-align: center;
+}

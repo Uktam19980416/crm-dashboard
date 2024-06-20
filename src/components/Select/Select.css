@@ -1,0 +1,16 @@
+.select{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 1px;
+    color: #000000;
+    border: none ;
+    background-color: transparent;
+    outline: none;
+}
+
+option{
+    color: #000000;
+}

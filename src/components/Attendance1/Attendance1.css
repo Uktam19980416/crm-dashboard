@@ -1,0 +1,27 @@
+.table__input {
+  margin-left: 10px !important;
+  margin-top: 4px !important;
+}
+.card__table-btn {
+  width: 353%;
+  display: flex;
+  justify-content: end;
+}
+.card__h3-h3 {
+  margin: 0 !important;
+  padding: 0 !important;
+  font-family: "Inter";
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 34px;
+  color: #001062;
+}
+.card__h3-p {
+  font-family: "Inter";
+  font-weight: 700;
+  height: 24px;
+  font-size: 24px;
+  color: #2f49d1;
+  margin: 0 !important;
+  padding: 0 !important;
+}

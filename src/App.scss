@@ -1,0 +1,105 @@
+/* width */
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #e0e0e0;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: rgb(119, 211, 223);
+}
+.card__table {
+  height: 509px !important;
+  overflow-y: scroll;
+}
+.container{
+  width: 1120px!important;
+}
+.dark{
+  background-color: #161624 !important;
+  transition: .5s ease-out;
+  color: #FFFFFF !important;
+  &__title{
+    color: #FFFFFF !important;
+    transition: .5s ease-out !important;
+    border: none !important;
+  }
+  &__img{
+     background-color: #515C8D !important;
+    transition: .5s ease-out;
+  }
+  &__cards{
+     background-color:  rgba($color: #515C8D, $alpha: 1) !important;
+  }
+  &__odd{
+    background-color: #00072D !important;
+    color: #FFF !important;
+    transition: .5s ease-out;
+    border: none !important;
+    &:hover{
+      background-color: #00172D !important;
+    }
+
+  }
+  &__even{
+    background: rgba(0, 28, 175, 0.1) !important;
+    color: #FFF !important;
+    border: none !important;
+    transition: .5s ease-out !important;
+    &:hover{
+      background-color: #00172D !important;
+
+    }
+  }
+  &__back{
+    background-color: #120d1c !important;
+    transition: .5s ease-out;
+
+  }
+  &__card{
+    background-color: #222235 !important;
+    color: #FFFFFF !important;
+    transition: .5s ease-out;
+  }
+  &__header{
+    transition: .5s;
+    background-color: #161624;
+    color: #ffffff !important;
+  }
+  &__input{
+    color: rgba($color: #FFFFFF, $alpha: 1.0);
+    background-color: #515C8D;
+    transition: .5s ease-out;
+    &::placeholder{
+      color: rgba($color: #C4C4C4, $alpha: 1) !important;
+    }
+    &:focus{
+      color: #fff;
+      background-color: #515C8D !important;
+    }
+  }
+  &__btn{
+    background-color: #192152 !important;
+    color: #FFF !important;
+    transition: .5s ease-out;
+    &::placeholder{
+      color: #fff !important;
+    }
+    &:active{
+      background: #002152;
+
+    }
+  }
+}
+.light{
+ transition: .5s ease-out !important;
+}
